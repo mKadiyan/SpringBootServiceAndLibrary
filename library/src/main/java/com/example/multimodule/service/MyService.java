@@ -16,4 +16,8 @@ public class MyService {
 	public String message() {
 		return this.serviceProperties.getMessage();
 	}
+
+	public String urlData() {
+		return this.serviceProperties.getUrlData();
+	}
 }
